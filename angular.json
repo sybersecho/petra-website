@@ -31,9 +31,6 @@
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/slick-carousel/slick/slick.css",
               "node_modules/slick-carousel/slick/slick-theme.css",
-              "src/assets/css/all.css",
-              "src/assets/css/default.css",
-              "src/assets/css/style.css",
               "src/styles.css"
             ],
             "scripts": [
