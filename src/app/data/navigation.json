@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "linkText": "Beranda",
+    "link": "/"
+  },
+  {
+    "id": 2,
+    "linkText": "Profile Gereja",
+    "link": "/profile-gereja"
+  },
+  {
+    "id": 3,
+    "linkText": "Informasi Jemaat",
+    "child": true,
+    "submenu": [
+      {
+        "id": 31,
+        "link": "/sektor-betsaida",
+        "linkText": "Betsaida"
+      },
+      {
+        "id": 32,
+        "link": "/sektor-betesda",
+        "linkText": "Betesda"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "linkText": "Galery",
+    "child": true,
+    "submenu": [
+      {
+        "id": 41,
+        "link": "/galery/images",
+        "linkText": "Images"
+      },
+      {
+        "id": 42,
+        "link": "/galery/video",
+        "linkText": "Video"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "linkText": "Berita",
+    "link": "/berita"
+  },
+  {
+    "id": 6,
+    "linkText": "Hubungi Kami",
+    "link": "/hubungi-kami"
+  }
+]

@@ -1,0 +1,18 @@
+h3.card-title {
+  font-size: 1rem;
+}
+
+.card-date {
+  padding-left: 1.25rem;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+}
+
+.card-footer{
+  background-color: white;
+  border-top: 0 solid white;
+}
+
+.card {
+  box-shadow: 10px 10px 5px #aaaaaa;
+}

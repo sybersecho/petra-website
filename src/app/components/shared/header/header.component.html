@@ -1,0 +1,70 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/images/logo_gpm.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        GPM Petra
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+              aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <!--        <span class=""></span>-->
+        <!--        <span class=""></span>-->
+        <!--        <span class=""></span>-->
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav ml-auto">
+          <a routerLink="#" class="nav-link active">Active</a>
+          <li ngbDropdown class="nav-item" *ngFor="let item of navigation">
+
+            <a routerLink="{{item.link}}" *ngIf="!item.child" class="nav-link">{{item.linkText}}</a>
+            <a href="javascript:void(0)" *ngIf="item.child" class="nav-link dropdown-toggle"
+               id="navbarDropdownMenuLink"
+               role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+               ngbDropdownToggle>{{item.linkText}}</a>
+            <div ngbDropdownMenu class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" *ngIf="item.child">
+              <div *ngFor="let item of item.submenu">
+                <a routerLink="{{item.link}}" *ngIf="!item.child" class="dropdown-item">{{item.linkText}}</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Mask-->
+  <div id="intro" class="view">
+
+    <div class="mask rgba-black-strong">
+
+      <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+
+        <!--      </div>-->
+
+        <!--      <div class="d-flex align-items-center h-100">-->
+        <div class="row d-flex justify-content-center text-center">
+
+          <div class="col-md-10">
+            <!-- Heading -->
+            <h2 class="display-4 font-weight-bold text-white pt-5 mb-2">Travel</h2>
+
+            <!-- Divider -->
+            <hr style="border-top: 1px solid white">
+
+            <!-- Description -->
+            <h4 class="text-white my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
+              consequuntur.</h4>
+            <button type="button" class="btn btn-outline-light">Read more<i class="fa fa-book ml-2"></i></button>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!--/.Mask-->
+
+</header>

@@ -1,5 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
 
-body {
-  font-family: "Poppins Regular", sans-serif;
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+html {
+  scroll-behavior: smooth;
 }
+
+body {
+  background: #fff;
+  color: #666666;
+  font-family: "Poppins Regular", sans-serif;
+  height: 2000px;
+  margin: 0;
+  padding: 0;
+}
+
+/*a {*/
+/*  !*color: #03C4EB !important;*!*/
+/*  text-decoration: none;*/
+/*  transition: 0.5s all ease;*/
+/*  -webkit-transition: 0.5s all ease;*/
+/*  -o-transition: 0.5s all ease;*/
+/*}*/
+
+/*a:hover, a:active, a:focus {*/
+/*  !*color: #03c5ec !important;*!*/
+/*  outline: none;*/
+/*  text-decoration: none;*/
+/*}*/
+
+/*p {*/
+/*  padding: 0;*/
+/*  margin: 0 0 30px 0;*/
+/*}*/
+
+/*h1, h2, h3, h4, h5, h6 {*/
+/*  font-family: "Raleway", sans-serif;*/
+/*  font-weight: 400;*/
+/*  margin: 0 0 20px 0;*/
+/*  padding: 0;*/
+/*}*/
+
